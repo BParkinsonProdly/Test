@@ -1,0 +1,9 @@
+Id,Name,SBQQ__Active__c,SBQQ__AdvancedCondition__c,SBQQ__ConditionsMet__c,SBQQ__ConfiguratorEvaluationEvent__c,SBQQ__EvaluationEvent__c,SBQQ__EvaluationOrder__c,SBQQ__LookupObject__c,SBQQ__Product__c,SBQQ__TargetObject__c,test_text__c
+78619595-d90b-452a-9d98-e81f3847ea9b,Test Demo Price Rule,false,,All,,On Calculate,1.0,SBQQ__LookupData__c,,Configurator,
+51e042e5-7241-49cf-81cb-84cec328bdd8,Set Approval Threshold By Product Family,true,,All,,On Calculate,1.0,Discount_Tier__c,,Calculator,
+ae120cd4-4a71-499f-8b8f-0e6bc9954fa7,Set Professional Service Role Rates,true,,All,,On Calculate,1.0,Professional_Services_Rate__c,,Calculator,
+5598267b-211d-4c11-946d-666505eef1f2,Set Power Cable and Server Quantity,true,(1 AND 4) OR (2 AND 3 AND 4),Custom,Edit,On Initialization;Before Calculate;On Calculate;After Calculate,1.0,,,Configurator,
+50c97e4d-3b8b-4b3e-af06-ea9f9ac88068,Set Cost on quote,true,,All,,On Calculate,1.0,,,Calculator,
+5904a1d6-1342-4640-8c13-e4f7b794a83c,Set Pricing Method to Cost for Hardware Lines,true,,All,,On Initialization;Before Calculate;On Calculate;After Calculate,,,,Calculator,
+f9fe750a-520f-439a-80a9-92ce7b62e0e8,Set Pricing Method to List for Hardware Lines,true,,TEST,,On Initialization;Before Calculate;On Calculate;After Calculate,,,,Calculator,
+b60e7758-97cc-4108-b6b6-e55063573713,Set Approval Level,true,,All,,On Initialization;On Calculate;After Calculate,,,,Calculator,
